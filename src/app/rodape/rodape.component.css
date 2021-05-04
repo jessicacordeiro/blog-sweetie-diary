@@ -1,0 +1,18 @@
+ul.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 20px;
+}
+
+.footer-copyright {
+    background: #FF66C4;
+}
+
+.b-top {
+    border-top: solid 3px black;
+}

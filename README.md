@@ -71,12 +71,6 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 - ng module
 - ng x bootstrap
 
-## 🔗 Link da Documentação
-
-## 💡 Deploy na plataforma Herokuapp
-
-## 🛠 Futuras implementações
-
 ## 💪 Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.

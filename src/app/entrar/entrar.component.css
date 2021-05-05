@@ -1,0 +1,133 @@
+.fundo-entrar {
+    background: #FFDCD8;
+}
+
+#img-sd {
+    margin-top: 20px;
+    background: url(https://i.imgur.com/Yxgg0xr.png);
+
+    min-height: 605px;
+
+    background-position: right;
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+
+.entrar {
+    background: white;
+    width: 500px;
+    height: 500px;
+    border: solid 4px;
+    box-shadow: 8px 8px 6px rgb(75, 75, 75);
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-bottom: solid 4px;
+    display: flex;
+    direction:rtl;
+}
+
+.fa {
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 5px;
+    color: black;
+}
+
+.label-float input{
+    width: 90%;
+    padding: 5px 5px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    outline: none;
+    min-width: 160px;
+    font-size: 20px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+  
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+.label-float input:focus{
+    border-bottom: 3px solid rgb(70, 69, 69);
+}
+  
+.label-float label{
+    color: black;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-out;
+}
+  
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 20px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background: transparent;
+    border: solid 3px;
+}
+
+button:hover {
+    background: #42CFE6;
+}
+
+#img-grade {
+    background: url(https://i.imgur.com/YaT5eHe.png);
+    
+
+    min-height: 400px;
+
+    background-position: auto;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1300px) {
+    #img-sd {
+        display: none;
+    }
+
+    .fundo-entrar {
+        background: #FFDCD8;
+        margin: 0;
+        height: 800px;
+    }
+
+    .entrar {
+        width: 310px;
+        height: 500px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 70px;
+        margin-bottom: 130px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}

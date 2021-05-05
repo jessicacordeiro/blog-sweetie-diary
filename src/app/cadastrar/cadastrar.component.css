@@ -1,0 +1,171 @@
+.fundo-cadastrar{
+    background: #FFDCD8;
+}
+
+#img-sd {
+    background: url(https://i.imgur.com/rD086VL.png);
+
+    min-height: 500px;
+
+    background-position: auto;
+    background-size: 650px;
+    background-repeat: no-repeat;
+}
+
+.cadastrar {
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 500px;
+    height: 600px;
+    border: solid 4px;
+    box-shadow: 8px 8px 6px rgb(75, 75, 75);
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-bottom: solid 4px;
+    display: flex;
+    direction:rtl;
+}
+
+.fa {
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 5px;
+    color: black;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: -10px;
+}
+
+.label-float input{
+    width: 90%;
+    padding: 2px 2px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    outline: none;
+    min-width: 160px;
+    font-size: 15px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+  
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+.label-float input:focus{
+    border-bottom: 3px solid rgb(70, 69, 69);
+}
+  
+.label-float label{
+    color: black;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-out;
+}
+  
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 16px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+
+select {
+    width: 445px;
+    margin-left: 18px;
+    margin-top: -20px;
+    border: solid 3px black;
+    border-radius: 0;
+}
+
+.tipo-usuario {
+    font-size: 18px;
+    color: black;
+}
+
+option {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    background: transparent;
+    border: solid 3px;
+}
+
+.cancelar:hover {
+    background: #6331C6;
+}
+
+.ok:hover {
+    background: #42CFE6;
+}
+
+@media (max-width: 1300px) {
+    #img-sd {
+        display: none;
+    }
+
+    .fundo-cadastrar {
+        background: #FFDCD8;
+        margin: 0;
+        height: 800px;
+    }
+
+    .cadastrar {
+        width: 320px;
+        height: 500px;
+        margin-left: 8px;
+        margin-right: 10px;
+        margin-top: 70px;
+        margin-bottom: -150px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    select {
+        width: 280px;
+        margin-left: 20px;
+        font-size: 9px;
+    }
+
+    option {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+}

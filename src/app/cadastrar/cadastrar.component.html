@@ -1,0 +1,60 @@
+<div class="container-fluid fundo-cadastrar">
+
+    <div class="row">
+
+        <div class="col-md-6" id="img-sd"></div>
+
+        <div class="col-md-6">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10">
+                    <div class="cadastrar">
+                        <header class="top">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                            <i class="fa fa-window-minimize" aria-hidden="true"></i>
+                        </header>
+                        <h1 class="font-family font-weight-bolder text-center mt-4">Cadastrar</h1>
+
+                        <div class= "label-float font-family">
+                            <input type="text" name="nome" id="nome" placeholder="" required>
+                            <label id="userLabel" for="nome">Nome:</label>
+                        </div>
+
+                        <div class= "label-float font-family">
+                            <input type="text" name="usuario" id="usuario" placeholder="" required>
+                            <label id="userLabel" for="usuario">Usuário</label>
+                        </div>
+
+                        <div class= "label-float font-family">
+                            <input type="text" name="foto" id="foto" placeholder="" required>
+                            <label id="userLabel" for="foto">Link da foto</label>
+                        </div>
+
+                        <div class="label-float font-family">
+                            <input type="password" name="senha" id='senha' placeholder="" required>
+                            <label id="userLabel" for="senha">Senha</label>
+                        </div>
+
+                        <div class="label-float font-family">
+                            <input type="password" name="confirmSenha" id="confirmSenha" placeholder="" required>
+                            <label id="userLabel" for="confirmSenha">Confirme sua senha</label>
+                        </div>
+
+                        <div class="label-float font-family">
+                            <select class="form-control font-weight-bolder tipo-usuario" name="tipo" id="tipo">
+                                <option>Tipo do usuário</option>
+                                <option value="normal">Normal</option>
+                                <option value="adm">Administrador(a)</option>
+                            </select>
+                        </div>
+
+                        <div class="d-flex justify-content-center font-family">
+                            <button type="submit" class="cancelar mr-4">Cancelar</button>
+                            <button type="submit" class="ok">Cadastrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

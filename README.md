@@ -22,26 +22,29 @@
 ## 📄 Sobre o Projeto
 <p align="start"> 
 	👁️ O Sweetie Diary foi desenvolvido para conectar as pessoas através de texto em formato de 
-  diários com fotos.<br>- Projeto desenvolvido no curso da Generation Brasil.
+  diários com fotos.
 </p>
    
    
 ## ⚙️ Funcionalidades
 
-- [x] Os usuários podem se cadastrar na plataforma web enviando:
+- [ ] Os usuários podem se cadastrar na plataforma web enviando:
 	- nome completo, usuário, link da foto, senha e o tipo do usuário [adm ou normal]
-- [x] Efetuar Login com chave de Segurança.
-- [x] Criar temas
+- [ ] Efetuar Login com chave de Segurança.
+- [ ] Criar temas
    - Função disponível somente para o usuário que se cadastrar como ADM.
-- [x] Publicar postagens.
-- [x] Atualizar e Deletar as postagens.
-- [x] Filtrar pesquisas pelo:
+- [ ] Publicar postagens.
+- [ ] Atualizar e Deletar as postagens.
+- [ ] Filtrar pesquisas pelo:
 	- titulo e tema da postagem.  
-- [x] Pode postar com categorias relacionadas.
+- [ ] Pode postar com categorias relacionadas.
 	- Network
 	- Curiosidades
 	- Dicas
 	- Etc. 
+- [ ] Colocar fotos dentro do Cards
+- [ ] Ter a possibilidade de deixar privado algumas postagens
+- [ ] Responsividade
 
 ## 🎨 Layout
 
@@ -70,30 +73,9 @@ As seguintes aplicações e bibliotecas foram usadas no projeto:
 
 ## 🔗 Link da Documentação
 
-(https://jessicacordeiro.github.io/doc-blogPessoal.v2/modules/AppModule.html)
-
 ## 💡 Deploy na plataforma Herokuapp
 
-Então você pode ter acesso a plataforma, acessando o link -> [SWEETIEDIARY-SITE](https://sweetiediary.herokuapp.com/#/entrar)
-
 ## 🛠 Futuras implementações
-
-- [ ] Colocar fotos dentro do Cards
-- [ ] Ter a possibilidade de deixar privado algumas postagens
-- [ ] Responsividade
-
-## 👨‍💻 Contribuidores
-
-💛 Um super Obrigada 👏 para essa galera que me ensinou tudo o que está nesse código 💛 :)
-
-<table>
-  <tr>
-	<td align="center"><a href="https://www.linkedin.com/in/anderson-mendon%C3%A7a-de-abreu-11179a85/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQGvxIUennDT7g/profile-displayphoto-shrink_800_800/0/1603387423676?e=1625097600&v=beta&t=Cz4k6HjjbtCUxFBjdV6ZHCXf_MTjwaYKO72I74RVJsc" width="100px;" alt="Anderson"/><br /><sub><b>Anderson Mendonça </b></sub></a><br /><a href="" title="Instrutor da Generation Brasil">👨‍🚀</a></td> 
-	  <td align="center"><a href="https://www.linkedin.com/in/thicode/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQEgYRMUkFG4gw/profile-displayphoto-shrink_800_800/0/1615098203034?e=1625097600&v=beta&t=DhANZkmN3juhzArTA2m9lL3E7CactoQ8KwcZ4ZUN3Gk" width="100px;" alt="Thiago"/><br /><sub><b>Thiago Lima (ThiCode)</b></sub></a><br /><a href="https://github.com/limathiagos" title="Instrutor da Generation Brasil">👨‍🚀</a></td> 
-	   <td align="center"><a href="https://www.linkedin.com/in/vagner-monteiro-01b02811b/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQEtY0j2aFP_6w/profile-displayphoto-shrink_800_800/0/1588603343122?e=1625097600&v=beta&t=vbkrVKItiPafkf2rzWZoB8WNgM-VJym89RxPyDcm-IE" width="100px;" alt="Liza"/><br /><sub><b>Vagner Monteiro (Vag)</b></sub></a><br /><a href="https://www.linkedin.com/in/elizabeth-hastings/" title="Instrutor da Generation Brasil">👨‍🚀</a></td> 
-	  
-</tr>
-</table>
 
 ## 💪 Como contribuir para o projeto
 

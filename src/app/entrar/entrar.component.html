@@ -16,17 +16,17 @@
                         <h1 class="font-family font-weight-bolder text-center mt-5">Entrar</h1>
 
                         <div class= "label-float font-family">
-                            <input type="text" name="usuario" id="usuario" placeholder="" required>
+                            <input [(ngModel)] = 'userLogin.usuario' type="text" name="usuario" id="usuario" placeholder="" required>
                             <label id="userLabel" for="usuario">Usuário</label>
                         </div>
 
                         <div class="label-float font-family">
-                        <input type="password" name="senha" id="senha" placeholder="" required>
+                        <input [(ngModel)] = 'userLogin.senha' type="password" name="senha" id="senha" placeholder="" required>
                             <label id="userLabel" for="senha">Senha</label>
                         </div>
 
                         <div class="d-flex justify-content-center mt-5">
-                            <button type="submit" class="font-family font-weight-bolder">Entrar</button>
+                            <button type="submit" class="font-family font-weight-bolder" (click)='entrar()'>Entrar</button>
                         </div>
 
                         <p class="text-center mt-4 font-family font-weight-bolder">

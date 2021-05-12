@@ -16,32 +16,32 @@
                         <h1 class="font-family font-weight-bolder text-center mt-4">Cadastrar</h1>
 
                         <div class= "label-float font-family">
-                            <input type="text" name="nome" id="nome" placeholder="" required>
+                            <input [(ngModel)]= 'user.nome' type="text" name="nome" id="nome" placeholder="" required>
                             <label id="userLabel" for="nome">Nome:</label>
                         </div>
 
                         <div class= "label-float font-family">
-                            <input type="text" name="usuario" id="usuario" placeholder="" required>
+                            <input [(ngModel)]= 'user.usuario'  type="text" name="usuario" id="usuario" placeholder="" required>
                             <label id="userLabel" for="usuario">Usuário</label>
                         </div>
 
                         <div class= "label-float font-family">
-                            <input type="text" name="foto" id="foto" placeholder="" required>
+                            <input [(ngModel)]= 'user.foto'  type="text" name="foto" id="foto" placeholder="" required>
                             <label id="userLabel" for="foto">Link da foto</label>
                         </div>
 
                         <div class="label-float font-family">
-                            <input type="password" name="senha" id='senha' placeholder="" required>
+                            <input (input)='confirmSenha($event)' type="password" name="senha" id='senha' placeholder="" required>
                             <label id="userLabel" for="senha">Senha</label>
                         </div>
 
                         <div class="label-float font-family">
-                            <input type="password" name="confirmSenha" id="confirmSenha" placeholder="" required>
+                            <input [(ngModel)]= 'user.senha'  type="password" name="confirmSenha" id="confirmSenha" placeholder="" required>
                             <label id="userLabel" for="confirmSenha">Confirme sua senha</label>
                         </div>
 
                         <div class="label-float font-family">
-                            <select class="form-control font-weight-bolder tipo-usuario" name="tipo" id="tipo">
+                            <select class="form-control font-weight-bolder tipo-usuario" name="tipo" id="tipo" (change)='tipoUser($event)'>
                                 <option>Tipo do usuário</option>
                                 <option value="normal">Normal</option>
                                 <option value="adm">Administrador(a)</option>
@@ -50,7 +50,7 @@
 
                         <div class="d-flex justify-content-center font-family">
                             <button type="submit" class="cancelar mr-4 font-weight-bolder" routerLink='/entrar'>Cancelar</button>
-                            <button type="submit" class="ok font-weight-bolder">Cadastrar</button>
+                            <button type="submit" class="ok font-weight-bolder" (click)='cadastrar()'>Cadastrar</button>
                         </div>
                     </div>
                 </div>

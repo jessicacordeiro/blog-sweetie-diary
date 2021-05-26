@@ -1,0 +1,127 @@
+.fundo-superior{
+    background: #FFDCD8;
+}
+
+.img-frase {
+    margin-bottom: -110px;
+    margin-left: 140px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-left: -18px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -18px;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    background: white;
+    border: solid 2px;
+    margin-right: 5px;
+    margin-left: 65px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background: #42CFE6;
+}
+
+a {
+    width: 300px;
+    height: 250px;
+    padding: 7.8px 8px;
+    margin: 4px;
+    font-size: 18px;
+    background: transparent;
+    color: black;
+    border: solid 2px black;
+    line-height: 40px;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background: white;
+}
+
+#img-superior-lateral {
+    margin-left: -150px;
+}
+  
+   
+.nav-tabs > .nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-bottom: 0;
+  }
+  
+  .nav-item > .nav-item:checked {
+    border-color: black;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+  }
+  
+  .tab-panel {
+    border-top: 1.8px solid black;
+  }
+  
+
+@media (max-width: 800px) {
+    img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+
+    h5 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    button {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        background: white;
+        margin-right: 5px;
+        margin-left: 20px;
+        margin-bottom: -80px;
+    }
+
+    button:hover {
+        background: #42CFE6;
+    }
+
+    a {
+        width: 150px;
+        height: 200px;
+        padding: 8.9px 8px;
+        margin: 4px;
+        font-size: 14px;
+        line-height: 40px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: -80px;
+    }
+
+    a:hover {
+        background: white;
+    }
+}

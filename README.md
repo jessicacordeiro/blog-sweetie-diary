@@ -28,9 +28,9 @@
    
 ## ⚙️ Funcionalidades
 
-- [ ] Os usuários podem se cadastrar na plataforma web enviando:
+- [x] Os usuários podem se cadastrar na plataforma web enviando:
 	- nome completo, usuário, link da foto, senha e o tipo do usuário [adm ou normal]
-- [ ] Efetuar Login com chave de Segurança.
+- [x] Efetuar Login com chave de Segurança.
 - [ ] Criar temas
    - Função disponível somente para o usuário que se cadastrar como ADM.
 - [ ] Publicar postagens.
